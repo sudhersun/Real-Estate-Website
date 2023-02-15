@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container"> 
+            <div class="header d-flex">
+                <span class="material-symbols-rounded brand-logo p-2">
+                    real_estate_agent
+                    </span>
+                <a href="#" class="navbar-brand ms-3 "> Restate </a>
+            </div>
+            <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-5 ps-5" id="navMenu">
+                <ul class="navbar-nav nav-menu">
+                    <li class="nav-item ps-5 fw-bold"><a href="#" class="nav-link text-dark"> <u>Home</u> </a></li>
+                    <li class="nav-item ps-5 fw-bold"><a href="#" class="nav-link text-dark">Explore</a></li>
+                    <li class="nav-item ps-5 fw-bold"><a href="#" class="nav-link text-dark">Resources</a></li>
+                    <li class="nav-item ps-5 fw-bold"><a href="#" class="nav-link text-dark">Contact</a></li>
+                    <li class="nav-item ps-5 fw-bold"><a href="#" class="nav-link text-dark">Blog</a></li>
+                </ul>
+                <button class="btn me-2 btn-sign-in m-auto">Sign in</button>
+                <button class="btn btn-sign-up">Sign Up</button>
+            </div>
+            
+        </div>
+    </nav>
+    <!-- main container -->
+    <div class="container">
+
+        <!-- top center text heading -->
+        <div class="row center-heading">
+            <div class="col-2"></div>
+            <div class="col-8 front-text">
+                <h3>Your perfect home is waiting for you</h3>
+                <span>We have more than 200k properties around to <br> world to show you</span>
+                <button class="btn btn-light fw-bold">Explore more</button>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <!-- search bar -->
+        <div class="container-2 d-flex justify-content-center">
+            <div class="row choose-bar fw-bold">
+                <div class="col-3 choose"><label for="location">Location</label><input type="text" id="location" placeholder="Toronto On"></div>
+                <div class="col-3 choose"><label for="type">Type</label><input type="text" id="type" placeholder="Apartment"></div>
+                <div class="col-3 choose"><label for="priceRange">Price range</label><input type="text" id="priceRange" placeholder="200k"></div>
+                <div class="col-3 choose search-btn"><button class="btn btn-dark">Search</button></div>
+            </div>
+        </div>
+
+        <!-- advertisement row -->
+        <div class="container-3 m-5 p-5">
+            <div class="row ads-1">
+                <div class="col-4 ads-image">
+                    <img src="./images/background.jpg" alt="ads-image">
+                </div>
+                <div class="col ads-content">
+                    <h3>We are the best and most trusted <span>Real estate agent</span> </h3>
+                    <p>We've helped a lot of people to finds their dream homes</p>
+                    <ul style="list-style: none;">
+                        <li>
+                            <span class="material-symbols-rounded check-1 pe-3">check_circle</span>
+                            <small>678k buys have worked with us</small>
+                        </li>
+                        <li>
+                            <span class="material-symbols-rounded check-2 pe-3">check_circle</span>
+                            <small>Professional and experienced resources</small>
+                        </li>
+                        <li>
+                            <span class="material-symbols-rounded check-3 pe-3">check_circle</span>
+                            <small>Provide the best service for users</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- special home text -->
+        <div class="special-home-text">
+            <div class="row">
+                <h1>Special Homes</h1>
+                <p>Find your place with an immersive photo experience and the most listing <br> including things you won't find anywhere else</p>
+            </div>
+        </div>
+
+        <!-- cards row -->
+        <div class="row m-5">
+
+            <!-- cards-1 -->
+            <div class="col d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-img-top">
+                        <img src="./images/house-ga5955738b_1920.jpg">
+                    </div>
+                     <div class="card-body p-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h4 class="card-title">$4.600.000</h4>
+                                    <h6 class="card-substitle text-muted">50 conery</h6>
+                                </div>
+                                <div class="col">
+                                    <span class="badge ms-4">For sale</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 p-0">
+                                    <span class="badge additional-fe d-flex justify-content-center align-items-center">
+                                        <span class="material-symbols-rounded me-2" >
+                                            bed
+                                        </span>
+                                        3 bedrooms
+                                    </span>
+                                </div>
+                                <div class="col-6 p-0">
+                                    <span class="badge additional-fe d-flex justify-content-center align-items-center">
+                                        <span class="material-symbols-rounded me-2">
+                                            bathtub
+                                        </span>
+                                        2 bathrooms
+                                    </span>
+                                </div>
+                            </div>
+                    
+                            <div class="row d-inline-flex">
+                                <span class="badge additional-fe d-flex align-items-center justify-content-center">
+                                    <span class="material-symbols-rounded me-2">
+                                        directions_car
+                                    </span>
+                                    2 garage space
+                                </span>
+                            </div>
+                        </div>
+                    <div class="card-button">
+                        <button class="btn pe-4 ps-4">View details</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- card-2 -->
+            <div class="col d-flex justify-content-center" >
+                <div class="card card-3 ">
+                    <div class="card-img-top">
+                        <img src="./images/background.jpg">
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h4 class="card-title">$5600.000</h4>
+                                    <h6 class="card-substitle text-muted">50 conery</h6>
+                                </div>
+                                <div class="col">
+                                    <span class="badge ms-4">For sale</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 p-0">
+                                    <span class="badge additional-fe d-flex justify-content-center align-items-center">
+                                        <span class="material-symbols-rounded me-2" >
+                                            bed
+                                        </span>
+                                        4 bedrooms
+                                    </span>
+                                </div>
+                                <div class="col-6 p-0">
+                                    <span class="badge additional-fe d-flex justify-content-center align-items-center">
+                                        <span class="material-symbols-rounded me-2">
+                                            bathtub
+                                        </span>
+                                        2 bathrooms
+                                    </span>
+                                </div>
+                            </div>
+                    
+                            <div class="row d-inline-flex">
+                                <span class="badge additional-fe d-flex align-items-center justify-content-center">
+                                    <span class="material-symbols-rounded me-2">
+                                        directions_car
+                                    </span>
+                                    2 garage space
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <button class="btn pe-4 ps-4">View details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card-3 -->
+            <div class="col d-flex justify-content-center" >
+                <div class="card card-3 ">
+                    <div class="card-img-top">
+                        <img src="./images/pexels-binyamin-mellish-1396122.jpg">
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h4 class="card-title">$3.800.000</h4>
+                                    <h6 class="card-substitle text-muted">50 conery</h6>
+                                </div>
+                                <div class="col">
+                                    <span class="badge ms-4">For sale</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 p-0">
+                                    <span class="badge additional-fe d-flex justify-content-center align-items-center">
+                                        <span class="material-symbols-rounded me-2" >
+                                            bed
+                                        </span>
+                                        3 bedrooms
+                                    </span>
+                                </div>
+                                <div class="col-6 p-0">
+                                    <span class="badge additional-fe d-flex justify-content-center align-items-center">
+                                        <span class="material-symbols-rounded me-2">
+                                            bathtub
+                                        </span>
+                                        2 bathrooms
+                                    </span>
+                                </div>
+                            </div>
+                    
+                            <div class="row d-inline-flex">
+                                <span class="badge additional-fe d-flex align-items-center justify-content-center">
+                                    <span class="material-symbols-rounded me-2">
+                                        directions_car
+                                    </span>
+                                    2 garage space
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <button class="btn pe-4 ps-4">View details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <!-- another text context -->
+        <div class="service-text-heading">
+            <div class="row">
+                <h1>Our Service</h1>
+                <p>When it comes to real estate and properties we're<br>very happy step of the way</p>
+            </div>
+        </div>
+
+        <!-- service list -->
+        <div class="row service-list mt-5">
+            <div class="col list-item">
+                <span class="material-symbols-rounded item-1">
+                    monetization_on
+                    </span>
+                <h4>Property Insurance</h4>
+                <p>Property insurance provides protection aganist most riskto property such as fire,thif..</p>
+            </div>
+            <div class="col list-item">
+                <span class="material-symbols-rounded item-2">
+                    mail
+                    </span>
+                <h4>Advantage</h4>
+                <p>All these properties have amazing prices and you will find thousand of properties to choose from.</p>
+            </div>
+            <div class="col list-item">
+                <span class="material-symbols-rounded item-3">
+                    account_balance_wallet
+                    </span>
+                <h4>Low Commission</h4>
+                <p>We offer competitive commission structure that are straightforward and fair, making it simple and offordable</p>
+            </div>
+        </div>
+
+        <!-- video screen -->
+        <div class="video-screen mb-5">
+            <img src="./images/video pic.jpg" >
+            <div class="video-heading">
+                <h1>Looking <br>For a New Place</h1>
+                <p>We make quality-driven ethical and mindful work</p>
+            </div>
+            <span class="material-symbols-rounded">
+                play_circle
+                </span>
+        </div>
+
+        <!-- blogs -->
+        <div class="row blog">
+            <h1>Our best blog</h1>
+            <div class="col-7 pe-5">
+                <ul style="list-style: none;">
+                    <li class="blog-list">
+                        <img src="./images/house-ga5955738b_1920.jpg">
+                        <div class="blog-text-list">
+                            <h5>This Best Kept Secret Helps New Real Estate Agents Find Clints</h5>
+                            <p>Real estate agent may find it diffcult to establish as a local expert in real estate</p>
+                        </div>  
+                    </li>
+                    <li class="blog-list">
+                        <img src="./images/san-francisco-g5f1987a75_1920.jpg">
+                        <div class="blog-text-list">
+                            <h5>3 steps to Managing Money in Your Real Estate Business</h5>
+                            <p>Money Management is an Important Skill for budgeting and keeping afloat.</p>
+                        </div>
+                    </li>
+                    <li class="blog-list">
+                        <img src="./images/house-g393081f4f_1920.jpg">
+                        <div class="blog-text-list">
+                            <h5>9 Easy-to-Ambitious DIY Projects to improve Your Home</h5>
+                            <p>Whether you're looking for small project or challange those improvement can enhance</p>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="col-5 side-banner d-flex align-items-center">
+                <img src="./images/Real-Estate-Agent-Business-India.jpg" >
+            </div>
+        </div>
+
+        
+        <!-- last-content  -->
+        <div class="row last-content">
+            <div class="col img-space">
+                <img src="./images/background.jpg" style="width: 80%">
+            </div>
+            <div class="col text-space">
+                <h1>Why <br> Choose Us</h1>
+                <p>We have a lot of experience with real estate <br> properties and working with different <br> customers around the wordls</p>
+                <button class="btn">Read More</button>
+            </div>
+        </div>
+        
+    </div>
+
+      <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <!-- col-1 brand details -->
+                    <div class="col brand-details ms-2">
+                    <div class="footer-brand">
+                        <span class="material-symbols-rounded brand-logo p-2 me-2">
+                            real_estate_agent
+                            </span>
+                        <a href="#" class="brand-name">Restate</a>
+                    </div>
+                    <p>We have a lot of experience with real estate properties and working with different customers around the wordls</p>
+                    <h5 class="mt-5">Follow Us</h5>
+                    <div class="footer-link-app">
+                        <img src="./images/facebook.svg" style="width: 10%;">
+                        <img src="./images/instagram.svg" class="ms-3" style="width: 10%;">
+                        <img src="./images/twitter.svg" class="ms-3" style="width: 10%;">
+                    </div>
+                    </div>
+
+                    <!-- col-2 info -->
+                    <div class="col information ms-5">
+                    <ul style="list-style: none;">
+                        <li class="fw-bold"> <b>Information</b> </li>
+                        <li>Home</li>
+                        <li>Explore</li>
+                        <li>Resources</li>
+                        <li>Contact</li>
+                        <li>Blog</li>
+                    </ul>
+                    </div>
+
+                    <!-- col-3 help -->
+                    <div class="col help">
+                <ul style="list-style: none;">
+                    <li class="fw-bold"> <b>Helpfull Links</b> </li>
+                    <li>Properties</li>
+                    <li>Supports</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy</li>
+                </ul>
+                    </div>
+
+                    <!-- col-4 contact no -->
+                    <div class="col contact">
+                    <ul style="list-style: none;">
+                        <li class="fw-bold"> <b>Contact</b> </li>
+                        <li>+91 8521 2547 54</li>
+                        <li>Restate@gmail.com</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+
+
+    <script src="./js/bootstrap.min.js"></script>
+</body> 
+</html>
